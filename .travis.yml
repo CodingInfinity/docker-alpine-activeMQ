@@ -19,9 +19,9 @@ script:
   - docker-compose up -d
   - docker-compose ps
   - docker-compose ps | grep Up
-  - docker-compose ps | grep "1883->1883/tcp"
-  - docker-compose ps | grep "5672->5672/tcp"
-  - docker-compose ps | grep "61613->61613/tcp"
-  - docker-compose ps | grep "61614->61614/tcp"
-  - docker-compose ps | grep "61616->61616/tcp"
-  - docker-compose ps | grep "8161->8161"
+  - docker-compose ps | grep "1883/tcp"
+  - docker-compose ps | grep "5672/tcp"
+  - docker-compose ps | grep "8161/tcp"
+  - docker-compose ps | grep "61613/tcp"
+  - docker-compose ps | grep "61614/tcp"
+  - docker-compose ps | grep "61616/tcp"
