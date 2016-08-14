@@ -2,6 +2,7 @@ Alpine Apache ActiveMQ Docker
 ===============
 
 [![Build Status](https://travis-ci.org/CodingInfinity/docker-alpine-activemq.svg?branch=master)](https://travis-ci.org/CodingInfinity/docker-alpine-activemq)
+[![ZenHub](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)
 
 [Docker](https://www.docker.io/) file for trusted builds of [ActiveMQ](http://activemq.apache.org/) on https://hub.docker.com/r/codinginfinity/alpine-activemq/.
 
@@ -39,3 +40,16 @@ Just override them with your desired location:
 As an alternative you can just mount your persistent config and data directories into the default location:
 
     docker run -p 61616:61616 -p 8161:8161 -v /opt/activemq/conf:/opt/activemq/conf -v /var/activemq/data:/var/activemq/data codinginfinity/alpine-activemq
+    
+# Sponsorships
+## ZenHub 
+
+<a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
+
+**ZenHub is how the world's best development teams work together.** ? 
+
+As the only project management tool integrated natively in GitHub's UI, ZenHub helps you stay in your workflow without distractions. There are no new queues to check, entries to update, or priorities to manage outside GitHub. 
+
+Because ZenHub's features are powered by native GitHub issues, it doesn't create more process - it gets out of your way so you can focus on shipping awesome products.
+
+Download the ZenHub extension for Firefox or Chrome [here](http://www.zenhub.com). It's free for public, academic, and personal repositories. 
